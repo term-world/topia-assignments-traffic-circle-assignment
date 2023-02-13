@@ -1,0 +1,10 @@
+if [ ! -f .flags ]; then
+  touch .flags
+  echo "{}" >> .flags
+fi
+
+if [[ "$(jq .cwd .flags)" == null ]]; then
+  python -c "import os
+from narrator.Checkpoint import set_flag
+set_flag('cwd', os.getcwd())"
+fi
