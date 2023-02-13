@@ -33,12 +33,13 @@ class Stoplight(FixtureSpec):
         # Do not alter
 
         #----------------------
-        if light == "🟡":
-            light = "🔴"
-        if light == "🟢" and timeout:
-            light = "🟡"
-        if light == "🔴" and timeout:
-            light = "🟢"
+        """
+        TODO: Create stoplight functionality using directions, variables, and
+                guidance from the README. This light uses:
+
+                * light
+                * timeout
+        """
         #----------------------
         
         # Do not alter

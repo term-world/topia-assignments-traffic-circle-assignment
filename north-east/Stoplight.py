@@ -26,16 +26,14 @@ class Stoplight(FixtureSpec):
     # Do not alter
 
     #----------------------)
-    if light == "🟢" and people_waiting > 5:
-      light = "🟡"
-    elif light == "🟡":
-      light = "🔴"
-    else:
-      light = "🟢"
-    if people_waiting > 5 and light == "🔴":
-      print(f"There are {people_waiting} pedestrians waiting.")
-      crosswalk = "🚶"
-      people_waiting = 0
+    """
+    TODO: Create stoplight functionality using directions, variables, and
+          guidance from the README. This light uses:
+
+          * light
+          * crosswalk
+          * people_waiting
+    """
     #----------------------
     
     # Do not alter

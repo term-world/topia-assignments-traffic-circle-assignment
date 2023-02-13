@@ -30,10 +30,13 @@ class Car(FixtureSpec):
         # Do not alter
 
         #------------------------
-        if signal == "🟢\n➡️":
-            move_to = input("Direction to turn: ")
-        elif signal == "🟢" or signal == "⚫":
-            move_to = direction
+        """
+        TODO: Create stoplight functionality using directions, variables, and
+              guidance from the README. This vehicle uses:
+
+          * signal
+          * move_to
+        """
         #------------------------
 
         # Do not alter

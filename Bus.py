@@ -58,11 +58,11 @@ class Bus(FixtureSpec):
         Bus.__report(direction, stoplight)
 
         #------------------------
-        while stoplight != "🔴":
-            Bus.__move_bus(direction)
-            direction = Bus.__get_direction()
-            stoplight = Bus.__get_light(direction)
-            Bus.__report(direction, stoplight)
+        """
+        TODO: Create stoplight functionality using directions, variables, and
+              guidance from the README. This vehicle's code is largely cut-and-paste
+              from the README, though you will need to implement a while loop.
+        """
         #------------------------
 
 def main():

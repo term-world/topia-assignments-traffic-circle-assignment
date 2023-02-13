@@ -35,17 +35,14 @@ class Stoplight(FixtureSpec):
         # Do not alter
 
         #----------------------
-        if light == "🔴":
-            light = "🟢"
-            turn = True
-        elif light == "🟡":
-            light = "🔴"
-        if turn:
-            light == "🟢"
-        elif light == "🟢" and not turn:
-            pass
-        if light == "🟢" and not hold and not turn:
-            light = "🟡"
+        """
+        TODO: Create stoplight functionality using directions, variables, and
+              guidance from the README. This light uses:
+
+              * light
+              * hold
+              * turn
+        """
         #----------------------
     
         # Do not alter
